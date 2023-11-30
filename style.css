@@ -1,0 +1,541 @@
+#navID{
+    padding-top: 0px;
+    padding-bottom: 0%;
+
+}
+.navbar {
+     margin-bottom: 0 }
+
+#container1ID{
+    
+    background-color:  rgba(53, 45, 102, 1);
+    margin-top: -5px;
+    border: none;
+   
+}
+#loginID
+{
+    margin-left: -250px;
+}
+#RbtnID
+{
+    margin-left: -150px;
+}
+#carouselExampleSlidesOnly
+{
+    
+margin-top: -300px;
+height: 600px;
+width: 600px;
+}
+
+#vecID
+{
+    margin-top: 90px;
+    width: 50%;
+    margin-left: 120px;
+}
+#group44ID
+{
+    margin-top: 70px;
+    margin-left: 0px;
+}
+#textCol
+{
+    margin-top: 50px;
+}
+#dropdown
+{
+    width:350px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: rgba(53, 45, 102, 1);
+    color: white;
+    
+}
+#calID
+{
+    width:350px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: rgba(53, 45, 102, 1);
+    color: white;
+    
+}
+#iconID
+{
+  margin-left: -17px;
+}
+#iconID2
+{
+  margin-left: -17px;
+}
+#picktimeID
+{
+  width:150px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: rgba(53, 45, 102, 1);
+  color: white;
+}
+#dropdown2
+  {
+    width:80px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: rgba(53, 45, 102, 1);
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  #searchbtnID
+  {
+      margin-top: 70px;
+      width: 90px;
+  }
+  .container4{
+    max-width:100%;
+    margin-top: -5px;
+    
+}
+
+ #recID2
+{
+   margin-top: 70px;   
+}
+#rectiMGID
+{
+    margin-left: -38px;
+    
+}
+#img1ID
+{
+    width: 40px;
+    height: 40px;
+}
+
+.card-body
+{
+    
+    margin-top: 10%;
+    margin-bottom: 0%;
+    height: 250px;
+    
+}
+ .card-text
+ {
+    padding-bottom: 100px;
+ }
+ .center-container {
+    max-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px; /* Ensure the container takes at least the full viewport height */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow to cards */
+    margin: 40px; /* Add spacing between cards */
+}
+#colID2
+{
+    margin-top: 110px; 
+    
+}
+#bulID
+{
+    margin-left:100px ;
+    
+}
+#lID{
+    margin-bottom: 30px;
+}
+
+li {
+    color: yellow;
+    /* Bullet Color */
+}
+
+li span {
+    color: rgb(119, 119, 119);
+    /* Text Color */
+}
+#backimgID
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 530px;
+
+    opacity: 8%;
+}
+#colID3
+{
+    font-family: 'Montserrat';
+    margin-top: -430px;
+
+}
+#colID4
+{
+    
+    margin-top: -450px;
+    margin-left: 730px;
+
+}
+.card2-container {
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-left: -40px;
+}
+
+.card1, .card2 {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    transition: transform 0.5s, z-index 0.5s, width 0.5s, height 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid  rgba(53, 45, 102, 1);
+    background-color: white;
+
+}
+
+.card1.active, .card2.active {
+    transform: scale(1.1);
+    z-index: 2;
+    width: 350px;
+    height: 400px;
+    opacity: 1;
+    margin-right: -50px;
+
+     /* Adjust the margin as needed */
+}
+
+.card2.active + .card1, .card1.active + .card2 {
+    transform: scale(0.9); /* Reduce the scale to make it smaller */
+    width: 250px;
+    height: 400px;
+    opacity: 0.8;
+}
+
+#card2-image {
+    width: 80%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.card2-content {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color:  rgba(53, 45, 102, 1);
+}
+
+.card2-button {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.book-now-button {
+    background-color:  rgba(53, 45, 102, 1);
+    
+    height: 40px;
+    width: 155px;
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card1:not(.active) .book-now-button {
+    background-color: grey; /* Grey color for non-active cards */
+    color: white;
+    
+    
+}
+
+.card2.active .book-now-button {
+    background-color: rgba(53, 45, 102, 1); /* Blue color for active card */
+    color: white;
+}
+
+/* Style for the non-active book now button in card2 */
+.card2:not(.active) .book-now-button {
+    background-color: grey; /* Grey color for non-active cards */
+    color: white;
+}
+
+#hID
+{
+    margin-left: 80px;
+   margin-top: 120px;
+   width: 142px;
+   height: 71px;
+   left: 118px;
+   top: 2000px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+}
+#SID
+{
+    text-align: center;
+    margin-left: 60px;
+ margin-top: -50px;
+   width: 180px;
+   height: 71px;
+   left: 118px;
+   top: 2050px;
+   font-weight: 350;
+   font-size: 20px;
+   letter-spacing: 0.1em;
+}
+#lineID
+{ 
+    margin-left: 350px;
+    margin-top: -190px;
+width: 1px;
+height: 112px;
+
+top: 2000px;
+background: #57585A;
+}
+
+
+
+.container6 .content1 {
+  
+  background: rgb(0, 0, 0); 
+  background: rgba(53, 45, 102, 0.7); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  
+  
+}
+
+#priceimg1{
+
+width: 100%;
+height: 300px;
+margin-top: 80px;
+}
+
+.table-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -60px;
+    position: relative;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white; /* Set the background color to white */
+    box-shadow: 0 10px 10px grey; /* Add a shadow to the table */
+}
+
+
+th, td {
+    border: none;
+    padding: 10px;
+   
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+    padding-left: 40px;
+}
+td:nth-child(4),
+td:nth-child(5),
+th:nth-child(4),
+th:nth-child(5) {
+    text-align: right;
+}
+.subheading {
+   
+    font-weight: bold; /* Make the subheading text bold */
+    text-align: center;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);;
+}
+
+/* Style for the border between subheadings */
+.subheading-border {
+    border-right: 1px solid rgba(169, 169, 169, 0.5); /* Add a border to the right of subheadings */
+}
+
+.main-heading {
+    background-color:rgba(250, 192, 51, 1); 
+    color: black; 
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+tr:not(:first-child):nth-child(odd) {
+    background-color: rgba(169, 169, 169, 0.2)/* Grey background for odd rows, excluding the first row */
+}
+
+tr:nth-child(even) {
+    background-color: white; /* White background for even rows */
+}
+.container8
+{
+    background-color: rgba(245, 244, 247, 1);
+    width: 100%;
+   height: 500px;
+   margin-top: 100px;
+   
+}
+#abouttxtID
+{
+    padding-top: 80px;
+}
+
+
+
+.cardnew-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+   margin-left: -180px;
+  
+}
+#BimgID2
+{ 
+    margin-top: 90px;
+    margin-left: 60px;
+    z-index: 1;
+}
+.cardnew {
+    width: 400px;
+    height: 240px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    margin: -170px;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  
+}
+
+.cardnew:hover {
+    transform: translateY(-50px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cardnew-content {
+    position: relative;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    display: none;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cardnew.active {
+    transform: translateY(-50px);
+    z-index: 1;
+}
+
+.cardnew.active .cardnew-content {
+    display: block;
+    
+}
+
+.cardnew:not(.active) .cardnew-content {
+    display: block;
+    filter: blur(1px);
+    
+}
+/* .container9
+{
+    background-color : rgba(21, 18, 44, 1);
+    height: 300px;
+    width: 100%;
+} */
+
+ /* Add your custom styles here */
+ .footer-sidebar {
+    background-color : rgba(21, 18, 44, 1);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    width: 70px; /* Adjust the size of your logo */
+    height: 70px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    color: white; 
+    padding: 0;
+    margin-left: 100px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+.company-text {
+    text-align: center;
+}
+
+.support-text {
+    text-align: center;
+}
+
+.stay-updated {
+    text-align: right;
+}
+
+.email-input {
+    width: 100%;
+    max-width: 300px;
+}
+
+#footer
+{
+    text-align: center;
+    margin-top: -1dvh;
+    background-color: rgba(38, 33, 72, 1);
+    height: 60px;
+    color : white;
+}
+#copyRightID
+{
+    padding-top :10px;
+}
+
+
